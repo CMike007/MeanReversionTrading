@@ -23,7 +23,7 @@ $$X_t^{\alpha\beta} = \alpha A_t - \beta B_t$$
 
 Parsing through different pairs of $\alpha$ and $\beta$ and using the observed values, we maximize the average log-likelihood defined by the equation:
 
-$$ ℓ(\theta,\mu,\sigma|x_0^{\alpha\beta}, x_1^{\alpha\beta}, ...,x_n^{\alpha\beta}) = -\frac{1}{2}ln(2\pi)-ln(\tilde\sigma)-\frac{1}{2n\tilde\sigma^2}\sum\limits _{i=1}^{n}[x_i^{\alpha\beta}-x_{i-1}^{\alpha\beta}e^{-\mu\Delta t}-\theta(1-e^{-\mu\Delta t})]^2$$
+$$L(\theta,\mu,\sigma|x_{0}^{\alpha\beta},x_{1}^{\alpha\beta},...,x_{n}^{\alpha\beta})=-\frac{1}{2}ln(2\pi)-ln(\tilde\sigma)-\frac{1}{2n\tilde\sigma^2}\sum\limits_{i=1}^{n}[x_{i}^{\alpha\beta}-x_{i-1}^{\alpha\beta}e^{-\mu\Delta t}-\theta(1-e^{-\mu\Delta t})]^2$$
 
 with
 
