@@ -47,7 +47,8 @@ $$F(x,r) = \int\limits_{0}^{oo}u^{\frac{r}{\mu}-1}e^{\sqrt{\frac{2\mu}{\sigma^2}
 
 $$G(x,r) = \int\limits_{0}^{oo}u^{\frac{r}{\mu}-1}e^{\sqrt{\frac{2\mu}{\sigma^2}}(\theta-x)u-\frac{u^2}{2}}du$$
 
-$$V(x)  = \left\{ \begin{array}{ll}
+$$V(x) 
+= \left\{ \begin{array}{ll}
            (b-c)\frac{F(x)}{F(b)} & \mbox{if $x \in (-\inf,0)$};\\
            x-c & \mbox{otherwise}.\end{array} \right.$$
 
