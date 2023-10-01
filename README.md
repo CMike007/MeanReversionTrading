@@ -44,7 +44,9 @@ $$\hat G(d)(V´(d)-1)=\hat G´(d) (V(d) - d - c)$$
 To do so we need the following functions outlined in the paper as well as its derivatives:
 
 $$F(x,r) = \int\limits_{0}^{oo}u^{\frac{r}{\mu}-1}e^{\sqrt{\frac{2\mu}{\sigma^2}}(x-\theta)u-\frac{u^2}{2}}du$$
+
 $$F(x,r) = \int\limits_{0}^{oo}u^{\frac{r}{\mu}-1}e^{\sqrt{\frac{2\mu}{\sigma^2}}(\theta-x)u-\frac{u^2}{2}}du$$
+
 $$V(x) = \left\{ \begin{array}{ll}
      (b-c)\frac{F(x)}{F(b)} & \mbox{if $x \in (-\inf,0)$};\\
          x-c & \mbox{otherwise}.\end{array} \right.$$
