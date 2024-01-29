@@ -16,7 +16,7 @@ where $dW_t$ denotes a Brownian motion with $\mu,\sigma > 0$ and $\theta$ is $\i
 
 Be aware that $\mu$ and $\theta$ are in this paper used interchanged compared to the standard convention!
 
-The portfolio that will we traded later will be constructed by going long one risky asset A while shorting a different risky asset B. In order to create a Portfolio that exhibits the desired mean reverting properties, the positions sizes $\alpha$ and $\beta$ will be adjusted in order to maximize those. 
+The portfolio that is going to be traded later will be constructed by going long one risky asset A while shorting a different risky asset B. In order to create a Portfolio that exhibits the desired mean reverting properties, the positions sizes $\alpha$ and $\beta$ will be adjusted in order to maximize those. 
 
 The portfolio value X is represented by the following equation:
 $$X_t^{\alpha\beta} = \alpha A_t - \beta B_t$$
